@@ -1,0 +1,14 @@
+api: https://retoolapi.dev/Nj8ZyD/data
+
+curl "https://api-generator.retool.com/Nj8ZyD/data"
+
+curl "https://api-generator.retool.com/Nj8ZyD/data/1"
+
+curl -X POST -H 'Content-Type: application/json' -d '{"key":"value"}' https://api-generator.retool.com/Nj8ZyD/data
+
+curl -X PUT -H 'Content-Type: application/json' -d '{"key":"value"}' https://api-generator.retool.com/Nj8ZyD/data/1
+
+curl -X PATCH -H 'Content-Type: application/json' -d '{"key":"value"}' https://api-generator.retool.com/Nj8ZyD/data/1
+
+
+DELETE https://api-generator.retool.com/Nj8ZyD/data/1
